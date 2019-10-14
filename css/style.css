@@ -1,5 +1,5 @@
 body
-  {font-size: 50px;
+  {font-size: 14px;
 }
 
 nav {
@@ -17,7 +17,7 @@ section {
 
 h1 {
   font-family: sans-serif;
-  font-size: 2px;
+  font-size: 2em;
 }
 
 .example h3 {
@@ -28,11 +28,18 @@ h1 {
 h3 {
 font-size: 1.3em;
 }
-div.feature {background-color:pink}
 
 .element {
   background-color: green;
   height: 100px;
-  margin: 10px;
+  margin: 10px 0;
   width: 100%;
 }
+
+.feature {
+  background-color:blue;
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+/* The above class gives the div a blue background */
